@@ -1,0 +1,14 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: $dark-color;
+  color: $light-color;
+
+  a {
+    color: $mid-color;
+  }
+
+  a:hover {
+    color: $light-color;
+  }
+}
+

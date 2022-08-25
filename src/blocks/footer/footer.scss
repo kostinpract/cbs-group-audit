@@ -1,0 +1,24 @@
+.footer {
+  background-color: $light-color;
+  padding: 10px;
+  color: $dark-color;
+}
+
+.footer__wrapper {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__button_back {
+  border: none;
+  background-color: transparent;
+  color: $dark-color;
+  cursor: pointer;
+}
+
+.footer__button_back:hover {
+  color: $active-color;
+}
